@@ -36,3 +36,4 @@ vignettes/*.pdf
 # blogdown generated output
 public
 content/post/*.html
+static/post/*_files
