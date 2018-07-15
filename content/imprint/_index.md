@@ -5,4 +5,12 @@ menu = ""
 disable_comments = true
 +++
 
-Here goes legal stuff
+## Angaben gemäß § 5 TMG
+
+Lukas Burk  
+Herbststr. 90  
+28215 Bremen
+
+## Kontakt
+
+<code>mail@tadaa-data.de</code>
