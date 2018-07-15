@@ -26,12 +26,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     bio = "You do the research, we do the math."
     location = "Bremen, Germany"
     site_description = ""
-    copyright  = "Powered by [Hugo](//gohugo.io) and [blogdown](https://github.com/rstudio/blogdown). Theme by [PPOffice](http://github.com/ppoffice)."
+    copyright  = " and [blogdown](https://github.com/rstudio/blogdown). Theme by [PPOffice](http://github.com/ppoffice)"
     avatar = "tadaa_sq.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
     logo = "tadaa_sq.png"
     disable_mathjax = false # set to true to disable MathJax
+
+    piwikID = 1
+    piwikURL = "https://analytics.tadaa-data.de"
 
     # define which types of pages should be shown. By default the type with the most regular pages
     mainSections = ["post"]
@@ -55,19 +58,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     link   = "/"
 
 [[params.menu]]
-    before = false
-    label  = "Tags"
-    link   = "tags/"
-
-[[params.menu]]
-    before = false
-    label  = "Categories"
-    link   = "categories/"
-
-[[params.menu]]
-    before = false
+    before = true
     label  = "R-Pkgs"
     link   = "packages/"
+
+[[params.menu]]
+    before = false
+    label  = "R-Bloggers"
+    link   = "https://www.r-bloggers.com/"
+
 
 # Enter a link for the follow button on the left
 [params.profile]
@@ -99,4 +98,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     recent_articles = true
     categories = true
     tags = true
-    tag_cloud = true
+    tag_cloud = false
