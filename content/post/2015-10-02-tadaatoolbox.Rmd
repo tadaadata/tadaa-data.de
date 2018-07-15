@@ -9,7 +9,7 @@ tags:
   - rstats
 packages:
   - tadaatoolbox
-banner: banners/placeholder.png
+banner: banners/emptyplot_wide.png
 ---
 
 ```{r setup, include=FALSE}
