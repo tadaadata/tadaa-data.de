@@ -34,7 +34,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     disable_mathjax = false # set to true to disable MathJax
 
     piwikID = 1
-    piwikURL = "https://analytics.tadaa-data.de"
+    piwikURL = "https://analytics.tadaa-data.de/"
 
     # define which types of pages should be shown. By default the type with the most regular pages
     mainSections = ["post"]
