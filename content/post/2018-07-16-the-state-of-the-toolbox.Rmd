@@ -1,0 +1,29 @@
+---
+title: The State of the Toolbox
+author: Lukas
+date: '2018-07-16'
+slug: the-state-of-the-toolbox
+categories:
+  - R-Packages
+tags:
+  - rstats
+  - tools
+description: 'A quick look at the state of `tadaatoolbox` and future plans'
+images: []
+draft: true
+packages:
+  - tadaatoolbox
+banner: banners/emptyplot_wide.png
+---
+
+```{r setup, include=FALSE}
+library(tadaatoolbox)
+```
+
+It's been a while since we talked about `tadaatoolbox`.  
+Well, considering we don't talk about much at all and primarily just *do* things, that's not that big of a surprise.  
+Anyway, the toolbox is still on CRAN, it's still in development, and there's still a lot of plans for the package.
+
+<!--more-->
+
+First up I should mention that [we've been using a pkgdown site](http://tadaatoolbox.tadaa-data.de/) for documentation purposes, so if you want to take a look at what the package does, that's a better place to start than we could create with a blog post, since the documentation will update with the package in tandem, while blog posts will become outdated over time.
