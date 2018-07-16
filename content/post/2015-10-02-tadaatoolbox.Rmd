@@ -2,6 +2,7 @@
 title: "Are you lazy? Don't worry, tadaatoolbox got your back"
 author: Lukas
 date: '2015-10-02'
+description: "It's our first R package and it's kind of exciting!"
 categories:
   - R-Packages
 tags:
