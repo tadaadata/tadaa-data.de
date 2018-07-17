@@ -74,18 +74,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # See styles.css#727 for cell width, which depends on the number of links used
     github          = "tadaadata"
-    gitlab          = ""
     youtube         = ""
     vimeo           = ""
     tumblr          = ""
-    xing            = ""
-    linkedin        = ""
     slideshare      = ""
-    stackoverflow   = ""
     googleplus      = ""
     facebook        = "tadaadata"
-    facebook_admin  = ""
-    twitter_domain  = ""
     twitter         = "tadaa_data"
     mail            = "mail@tadaa-data.de"
 
