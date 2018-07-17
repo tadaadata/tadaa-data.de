@@ -64,6 +64,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
+
+# See styles.css#727 for cell width, which depends on the number of links used
     github          = "tadaadata"
     gitlab          = ""
     youtube         = ""
