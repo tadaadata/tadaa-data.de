@@ -29,6 +29,7 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 #### Teaching
 
 - [R-Intro for psychology undergrads](https://r-intro.tadaa-data.de) (German)
+- [ShinyApp visualizing the principles of frequentist inference](https://shiny.tadaa-data.de/teaching/distShiny/)
 
 #### Analysis Projects
 
