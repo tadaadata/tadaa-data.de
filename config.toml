@@ -57,8 +57,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[params.menu]]
     before = false
+    label  = "Tadaa, R-Intro!"
+    link   = "https://r-intro.tadaa-data.de/"
+    icon   = "fa fa-book"
+
+[[params.menu]]
+    before = false
     label  = "R-Bloggers"
     link   = "https://www.r-bloggers.com/"
+    icon   = "fab fa-r-project"
 
 [social]
 # Add your social network accounts to the profile section on the left
