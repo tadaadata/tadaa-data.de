@@ -9,7 +9,7 @@ We're people who like stats and R and also things and stuff.
 
 ### Who?
 
-<img src="/tobilukas.png" alt="Because professional profiles would be silly" width="75%"/>
+<img src="/tobilukas.png" alt="Because professional portraits would be silly" width="75%"/>
 
 We're Tobi & Lukas, or Lukas & Tobi, or [@jemus42](https://twitter.com/jemus42) and [@Unsichtbarer](https://twitter.com/Unsichtbarer), or something like that.  
 
@@ -29,7 +29,7 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 #### Teaching
 
 - [R-Intro for psychology undergrads](https://r-intro.tadaa-data.de) (German)
-- [ShinyApp visualizing the principles of frequentist inference](https://shiny.tadaa-data.de/teaching/distShiny/)
+- [Shiny app visualizing the principles of frequentist inference](https://shiny.tadaa-data.de/teaching/distShiny/)
 
 #### Analysis Projects
 
