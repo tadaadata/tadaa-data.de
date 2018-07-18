@@ -9,7 +9,6 @@ tags:
   - rstats
   - tools
 description: 'A quick look at the state of `tadaatoolbox` and future plans'
-images: []
 draft: true
 packages:
   - tadaatoolbox
