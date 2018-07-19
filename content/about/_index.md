@@ -37,3 +37,9 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 - [German Federal Elections '17](https://btw17.tadaa-data.de)
 - [Zombology](https://zombology.tadaa-data.de)
 - [Games Done Quick (GDQ)](https://gdq.tadaa-data.de)
+
+## Infrastructure
+
+While we're [on GitHub](https://github.com/tadaadata) for our open source projects, we also host our own private git server on [git.tadaa-data.de](https://git.tadaa-data.de) (via the wonderful [gogs](https://gogs.io/)) for our more sensitive and non-public projects.  
+We also host our own [LimeSurvey](https://www.limesurvey.org/) instance at [survey.tadaa-data.de](https://survey.tadaa-data.de), and our website-analytics are powered by a self-hosted instance of [Matomo (Piwik)](https://matomo.org/).  
+All of these tools help us to stay independent and keep data private, which is generally considered to be, you know, a good thing.
