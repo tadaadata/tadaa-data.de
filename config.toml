@@ -2,7 +2,7 @@ baseurl = "https://tadaa-data.de"
 languageCode = "en-us"
 title = "Tadaa, Data!"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "tadaadata"
+#disqusShortname = "tadaadata"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
