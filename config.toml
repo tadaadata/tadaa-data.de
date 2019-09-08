@@ -74,7 +74,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     vimeo           = ""
     tumblr          = ""
     slideshare      = ""
-    googleplus      = ""
     facebook        = "tadaadata"
     twitter         = "tadaa_data"
     mail            = "mail@tadaa-data.de"
