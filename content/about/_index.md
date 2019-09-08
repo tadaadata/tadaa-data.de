@@ -24,12 +24,11 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 
 ### R-Packages
 
-- [tadaatoolbox](https://tadaatoolbox.tadaa-data.de/) ([CRAN](https://cran.r-project.org/package=tadaatoolbox) / [GitHub](https://github.com/tadaadata/tadaatoolbox))
+- [tadaatoolbox](https://tadaatoolbox.tadaa-data.de/) ([CRAN](https://cran.r-project.org/package=tadaatoolbox) / [GitHub](https://github.com/tadaadata/tadaatoolbox)) (sadly in need of a big overhaul)
 
 ### Teaching
 
 - [R-Intro for psychology undergrads](https://r-intro.tadaa-data.de) (German)
-- [Shiny app visualizing the principles of frequentist inference](https://shiny.tadaa-data.de/teaching/distShiny/)
 
 #### Analysis Projects
 
@@ -40,6 +39,5 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 
 ## Infrastructure
 
-While we're [on GitHub](https://github.com/tadaadata) for our open source projects, we also host our own private git server on [git.tadaa-data.de](https://git.tadaa-data.de) (via the wonderful [gogs](https://gogs.io/)) for our more sensitive and non-public projects.  
-We also host our own [LimeSurvey](https://www.limesurvey.org/) instance at [survey.tadaa-data.de](https://survey.tadaa-data.de), and our website-analytics are powered by a self-hosted instance of [Matomo (Piwik)](https://matomo.org/).  
-All of these tools help us to stay independent and keep data private, which is generally considered to be, you know, a good thing.
+While we're [on GitHub](https://github.com/tadaadata) for our open source projects, we also host our own private git server on [git.tadaa-data.de](https://git.tadaa-data.de) (via the wonderful [Gitea](https://gitea.io)) for our more sensitive and non-public-facing projects.  
+We also host our own [LimeSurvey](https://www.limesurvey.org/) instance at [survey.tadaa-data.de](https://survey.tadaa-data.de), and our website-analytics are powered by a self-hosted instance of [Matomo (formerlyPiwik)](https://matomo.org/).  
