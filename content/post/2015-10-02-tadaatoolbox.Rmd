@@ -40,7 +40,7 @@ Let's take a look step by step:
 
 Notable bonus features:
 
-- Remember how we didn't bother to check for heteroskedasticity / homogenity of variance? That's because the function does that under the hood and uses the appropriate setting for `var.equal`. MIND = BLOWN
+- Remember how we didn't bother to check for heteroskedasticity / homogenity of variance? That's because the function does that under the hood and uses the appropriate setting for `var.equal`.
 - The print method is customizable, and if you use the function in an RMarkdown document, you can specify `print = "markdown"` to return a markdown table so knitr can render it to a neat table, just like in this blogpost
 - The power calculation notices which type of t-Test is called and calculates power for the specific test
 - THe effect size is also aware of the test type, and calculated via the bonus feature function `effect_size_t`
@@ -63,7 +63,7 @@ tadaa_aov(stunzahl ~ geschl * jahrgang, data = ngo, print = "markdown")
 Notice how we give you both the partial eta^2 and Cohen's f. The latter is used for power calculations in software like *G\*Power* as well as the `pwr` package in R, while the former is generally used as an interpretable effect size, at least according to my stats class.
 
 And lastly, we give you a simple template to create interaction plots with `tadaa_int`.  
-Building your own interaction plots with `ggplot2` is kind of annying, since you have to group/summarize your data beforehand and then write two relatively complex ggplots. `tadaa_int` does the work for you, and if you choose `grid = FALSE`, it returns a list of two `ggplot2` objects which you can save and modify as you wish with custom `scale_*` or `theme` components. If you choose `grid = TRUE`, the plots are arranged horizontally and printed as one image, which should probably be sufficient for most use case, especially in interactive use for explorative purposes.
+Building your own interaction plots with `ggplot2` is kind of annoying, since you have to group/summarize your data beforehand and then write two relatively complex ggplots. `tadaa_int` does the work for you, and if you choose `grid = FALSE`, it returns a list of two `ggplot2` objects which you can save and modify as you wish with custom `scale_*` or `theme` components. If you choose `grid = TRUE`, the plots are arranged horizontally and printed as one image, which should probably be sufficient for most use case, especially in interactive use for explorative purposes.
 
 ```{r}
 tadaa_int(ngo, stunzahl, jahrgang, geschl, grid = TRUE)

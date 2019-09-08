@@ -23,7 +23,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     # Tell me who you are
     author = "Tadaa, Data!"
-    bio = "You do the research, we do the math."
+    bio = "Throwing code at data and seeing what sticks"
     location = "Bremen, Germany"
     site_description = ""
     copyright  = " and [blogdown](https://github.com/rstudio/blogdown). Theme by [PPOffice](http://github.com/ppoffice)"
