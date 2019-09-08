@@ -65,7 +65,7 @@ Notice how we give you both the partial eta^2 and Cohen's f. The latter is used 
 And lastly, we give you a simple template to create interaction plots with `tadaa_int`.  
 Building your own interaction plots with `ggplot2` is kind of annoying, since you have to group/summarize your data beforehand and then write two relatively complex ggplots. `tadaa_int` does the work for you, and if you choose `grid = FALSE`, it returns a list of two `ggplot2` objects which you can save and modify as you wish with custom `scale_*` or `theme` components. If you choose `grid = TRUE`, the plots are arranged horizontally and printed as one image, which should probably be sufficient for most use case, especially in interactive use for explorative purposes.
 
-```{r}
+```{r tadaatoolbox-tadaa-int}
 tadaa_int(ngo, stunzahl, jahrgang, geschl, grid = TRUE)
 ```
 
@@ -73,7 +73,7 @@ I'm considering exposing more arguments to the user, e.g. the arrangement (horiz
 
 An additional plotting bonus is Tobi's `tadaa_balance`, a simple template for heatmaps used for evaluating the balance of a design:
 
-```{r}
+```{r tadaatoolbox-tadaa-balance}
 tadaa_balance(data = ngo, geschl, jahrgang)
 ```
 
@@ -121,7 +121,7 @@ And at last, there's a couple little functions I wrote primarily because I found
 Also, since I really like the `rmdformats::readthedown` RMarkdown template, I made a few tweaks to a `ggplot2` theme to match the template, you can use it by adding `+ theme_readthedown()` to your ggplots.  
 It's a little brighter and let's you choose which axis (x, y, both) to emphasize visually.
 
-```{r}
+```{r tadaatoolbox-theme-tadaa}
 tadaa_int(ngo, stunzahl, jahrgang, geschl, grid = F, print = F)[[1]] +
   theme_tadaa(axis_emph = "y")
 ```
