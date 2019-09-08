@@ -3,6 +3,7 @@ title: Bookdown is neat and automation is hard
 author: Lukas
 date: '2019-09-08'
 slug: bookdown-is-neat-and-automation-is-hard
+menu: main
 categories:
   - rstats
 tags:

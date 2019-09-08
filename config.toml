@@ -25,13 +25,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     copyright  = " and [blogdown](https://github.com/rstudio/blogdown). Theme by [PPOffice](http://github.com/ppoffice)"
     avatar = "tadaa_sq.png"
     logo = "tadaa_sq.png"
-    disable_mathjax = false # set to true to disable MathJax
+    disable_mathjax = false
 
     piwikID = 1
     piwikURL = "https://analytics.tadaa-data.de/"
 
     # define which types of pages should be shown. By default the type with the most regular pages
-    mainSections = ["posts"]
+    mainSections = ["post"]
 
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
