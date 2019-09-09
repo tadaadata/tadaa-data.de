@@ -19,7 +19,7 @@ Anyone and their hamster is writing [bookdown](http://bookdown.org/yihui/bookdow
 
 But then there's the case where stuff *doesn't* render nicely, and that's where the fun ends and the "*learning about stuff you didn't know was relevant or come to think of it was particularly interesting to begin with is a required step in the process of making things happen that you kinda want to happen*" game starts. Or, as I like to call it, "the ol' **lasydkwrocttoiwpitbwiarsitpomthtywth**" ^[still sucking at acronyms].
 
-So now that I more or less successfully switched out [R-Intro](https://r-intro.tadaa-data.de/book/) (German) over from "auto-built on our server mostly" to "auto-built on [Travis CI](https://travis-ci.org/)", I thought it might be a good time to consolidate some of the things I've learned along the way as someone not terribly familiar with travis outside of R-package testing.
+So now that I more or less successfully switched our [R-Intro for psychology undergrads](https://r-intro.tadaa-data.de/book/) (German) over from "auto-built on our server mostly" to "auto-built on [Travis CI](https://travis-ci.org/)", I thought it might be a good time to consolidate some of the things I've learned along the way as someone not terribly familiar with travis outside of R-package testing.
 
 If you're not at all familiar with travis (or the concept of CI), then you might want to [brush up on the basics](https://docs.travis-ci.com/user/for-beginners/) before you continue. For everything else, I'm going to assume that you're at least kind of familiar with with git / GitHub (if not, [this is your go-to reference](https://happygitwithr.com/)) and have dabbled in bookdown already.
 
