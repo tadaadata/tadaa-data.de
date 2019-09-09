@@ -9,7 +9,7 @@ theme = "hugo-icarus-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
-    post = "/post/:year/:month/:slug"
+    post = "/:year/:month/:slug"
 
 [taxonomies]
     tag = "tags"
