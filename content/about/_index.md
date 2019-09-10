@@ -7,7 +7,7 @@ disable_comments = true
 
 We're people who like stats and R and also things and stuff.  
 
-{{< figure src="/images/tobilukas.png" title="Because professional portraits would be silly" >}}
+{{< figure src="/images/tobilukas.png" caption="Because professional portraits would be silly" >}}
 
 We're Tobi & Lukas, or Lukas & Tobi, or [@jemus42](https://twitter.com/jemus42) and [@Unsichtbarer](https://twitter.com/Unsichtbarer), or something like that.  
 

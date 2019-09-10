@@ -1,1 +1,17 @@
 /* Overrides for ananke theme */
+
+li {
+    text-align: left
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+figcaption p {
+    text-align: right;
+    font-size: 75%;
+    font-style: italic
+}

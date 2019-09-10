@@ -1,8 +1,6 @@
 +++
 title = "Legal"
-nodateline = true
 menu = ""
-disable_comments = true
 +++
 
 ## Angaben gemäß § 5 TMG
