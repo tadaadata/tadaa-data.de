@@ -1,4 +1,5 @@
 ---
+title: "Tadaa, Data!"
 description: "Throwing code at data to see what sticks"
 ---
 
