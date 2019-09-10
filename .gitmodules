@@ -1,9 +1,9 @@
 [submodule "themes/hugo-icarus-theme"]
 	path = themes/hugo-icarus-theme
 	url = https://github.com/tadaadata/hugo-icarus-theme.git
-[submodule "themes/hugo-now"]
-	path = themes/hugo-now
-	url = https://github.com/mikeblum/hugo-now.git
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/hugo-now"]
+	path = themes/hugo-now
+	url = https://github.com/mikeblum/hugo-now.git
