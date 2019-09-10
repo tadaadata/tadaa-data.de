@@ -1,15 +1,13 @@
 +++
 title = "About"
 nodateline = true
-menu = "main"
+menu = ""
 disable_comments = true
 +++
 
 We're people who like stats and R and also things and stuff.  
 
-# Who?
-
-<img src="/tobilukas.png" alt="Because professional portraits would be silly" width="75%"/>
+{{< figure src="/images/tobilukas.png" title="Because professional portraits would be silly" >}}
 
 We're Tobi & Lukas, or Lukas & Tobi, or [@jemus42](https://twitter.com/jemus42) and [@Unsichtbarer](https://twitter.com/Unsichtbarer), or something like that.  
 
@@ -40,4 +38,4 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 ## Infrastructure
 
 While we're [on GitHub](https://github.com/tadaadata) for our open source projects, we also host our own private git server on [git.tadaa-data.de](https://git.tadaa-data.de) (via the wonderful [Gitea](https://gitea.io)) for our more sensitive and non-public-facing projects.  
-We also host our own [LimeSurvey](https://www.limesurvey.org/) instance at [survey.tadaa-data.de](https://survey.tadaa-data.de), and our website-analytics are powered by a self-hosted instance of [Matomo (formerlyPiwik)](https://matomo.org/).  
+We also host our own [LimeSurvey](https://www.limesurvey.org/) instance at [survey.tadaa-data.de](https://survey.tadaa-data.de), and our website-analytics are powered by a self-hosted instance of [Matomo (formerly Piwik)](https://matomo.org/).  

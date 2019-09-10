@@ -1,0 +1,72 @@
+baseurl = "https://tadaa-data.de"
+languageCode = "en-us"
+title = "Tadaa, Data!"
+#theme = "hugo-icarus-theme"
+theme = "hugo-now"
+# Comment the themesDir option if you use this theme in production
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:slug"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    package = "packages"
+
+
+# piwikID = 1
+# piwikURL = "https://analytics.tadaa-data.de/"
+
+# Format dates with Go's time formatting
+# date_format = "2006-01-02"
+
+
+[params]
+  description = "Throwing code at data and seeing what sticks"
+  author = "Tadaa, Data!"
+  keywords = ["hugo-now", "hugo"]
+  avatar = "/tadaa_sq.png"
+  displayauthor = true
+  # pygments
+  PygmentsUseClasses = true
+  PygmentsCodeFences = true
+  # pagination
+  paginate = 10
+  paginatePath = "page"#
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+    before = true
+    label  = "Home"
+    link   = "/"
+
+[[params.menu]]
+    before = false
+    label  = "Tadaa, R-Intro!"
+    link   = "https://r-intro.tadaa-data.de/"
+    icon   = "fa fa-book"
+
+[[params.menu]]
+    before = false
+    label  = "R-Bloggers"
+    link   = "https://www.r-bloggers.com/"
+    icon   = "fab fa-r-project"
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+
+# See styles.css#727 for cell width, which depends on the number of links used
+    github          = "tadaadata"
+    youtube         = ""
+    slideshare      = ""
+    facebook        = "tadaadata"
+    twitter         = "tadaa_data"
+    mail            = "mail@tadaa-data.de"
