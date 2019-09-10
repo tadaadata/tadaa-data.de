@@ -4,7 +4,7 @@ li {
     text-align: left
 }
 
-a, a:visited {
+.mid-gray a {
     color: inherit;
     text-decoration: underline;
     text-decoration-style: solid;
