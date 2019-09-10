@@ -14,7 +14,7 @@ We're Tobi & Lukas, or Lukas & Tobi, or [@jemus42](https://twitter.com/jemus42) 
 Studying at [Uni Bremen](http://uni-bremen.de/), we realized that throwing code at data was a fun thing to do, and conveniently enough there seems to be a demand for that kind of thing.  
 While we're finishing up our degrees, we dabble in a few projects here and there, and you might find them mentioned here.
 
-Lukas has a [blog with the things and the stuff](https://blog.jemu.name) going, but he's still trying to convince Tobi that setting up a blog is a good idea.
+Lukas has a [blog with the things and the stuff](https://blog.jemu.name) going, but he's still failing to convince Tobi that setting up a blog is a good idea.
 
 ## Projects
 
@@ -28,7 +28,7 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 
 - [R-Intro for psychology undergrads](https://r-intro.tadaa-data.de) (German)
 
-#### Analysis Projects
+### Analysis Projects
 
 - [World Penis Data](https://worldpenis.tadaa-data.de)
 - [German Federal Elections '17](https://btw17.tadaa-data.de)
@@ -37,5 +37,4 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 
 ## Infrastructure
 
-While we're [on GitHub](https://github.com/tadaadata) for our open source projects, we also host our own private git server on [git.tadaa-data.de](https://git.tadaa-data.de) (via the wonderful [Gitea](https://gitea.io)) for our more sensitive and non-public-facing projects.  
-We also host our own [LimeSurvey](https://www.limesurvey.org/) instance at [survey.tadaa-data.de](https://survey.tadaa-data.de), and our website-analytics are powered by a self-hosted instance of [Matomo (formerly Piwik)](https://matomo.org/).  
+While we're [on GitHub](https://github.com/tadaadata) for our open source projects, we also host our own private git server on [git.tadaa-data.de](https://git.tadaa-data.de) (via the wonderful [Gitea](https://gitea.io)) for our more sensitive and/or non-public-facing projects. 
