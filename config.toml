@@ -16,7 +16,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = "images/tadaa_sq.png"
+  favicon = "images/tadaa_sq_w.png"
   description = "Throwing code at data to see what sticks"
   facebook = ""
   twitter = "https://twitter.com/tadaa_data"
