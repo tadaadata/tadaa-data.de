@@ -3,7 +3,7 @@ version = "0.2.X"
 # site description
 description = "Tadaa, Data!"
 # site keywords
-keywords = ["Theme", "Hugo"]
+keywords = ["Blog", "Hugo"]
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
@@ -14,7 +14,7 @@ fingerprint = "sha384"
 #  date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
-images = ["/images/tadaa.png"]
+images = ["/images/tadaa_sq_w.png"]
   
 #  App icon config
 [app]
@@ -116,7 +116,7 @@ images = ["/images/tadaa.png"]
     # Gravatar Email for preferred avatar in home page
     gravatarEmail = ""
     # URL of avatar shown in home page
-    avatarURL = "/images/tobilukas.png"
+    avatarURL = "/images/tadaa_sq_w.png"
     #  title shown in home page (HTML format is supported)
     title = "Okay then!"
     # subtitle shown in home page
