@@ -1,0 +1,370 @@
+#  LoveIt theme version
+version = "0.2.X"
+# site description
+description = "Tadaa, Data!"
+# site keywords
+keywords = ["Theme", "Hugo"]
+# site default theme ("light", "dark", "auto")
+defaultTheme = "auto"
+# public git repo url only then enableGitInfo is true
+gitRepo = ""
+#  which hash function used for SRI, when empty, no SRI is used
+# ("sha256", "sha384", "sha512", "md5")
+fingerprint = "sha384"
+#  date format
+dateFormat = "2006-01-02"
+# website images for Open Graph and Twitter Cards
+images = ["/images/tadaa.png"]
+  
+#  App icon config
+[app]
+  # optional site title override for the app when added to an iOS home screen or Android launcher
+  title = "Tadaa, Data!"
+  # whether to omit favicon resource links
+  noFavicon = false
+  # modern SVG favicon to use in place of older style .png and .ico files
+  svgFavicon = ""
+  # Android browser theme color
+  themeColor = "#ffffff"
+  # Safari mask icon color
+  iconColor = "#5bbad5"
+  # Windows v8-10 tile color
+  tileColor = "#da532c"
+    
+#  Search config
+[search]
+  enable = true
+  # type of search engine ("lunr", "algolia")
+  type = "lunr"
+  # max index length of the chunked content
+  contentLength = 4000
+  # placeholder of the search bar
+  placeholder = ""
+  #  max number of results length
+  maxResultLength = 10
+  #  snippet length of the result
+  snippetLength = 30
+  #  HTML tag name of the highlight part in results
+  highlightTag = "em"
+  #  whether to use the absolute URL based on the baseURL in search index
+  absoluteURL = false
+  [search.algolia]
+    index = ""
+    appID = ""
+    searchKey = ""
+
+# Header config
+[header]
+  # desktop header mode ("fixed", "normal", "auto")
+  desktopMode = "fixed"
+  # mobile header mode ("fixed", "normal", "auto")
+  mobileMode = "auto"
+  #  Header title config
+  [header.title]
+    # URL of the LOGO
+    logo = "/images/tadaa_sq.png"
+    # title name
+    name = "Tadaa, Data!"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    #  whether to use typeit animation for title name
+    typeit = false
+
+# Footer config
+[footer]
+  enable = true
+  #  Custom content (HTML format is supported)
+  custom = 'We really need better logo stuff and such'
+  #  whether to show Hugo and theme info
+  hugo = true
+  #  whether to show copyright info
+  copyright = true
+  #  whether to show the author
+  author = true
+  # Site creation time
+  since = 2016
+  # license info (HTML format is supported)
+  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+#  Section (all posts) page config
+[section]
+  # special amount of posts in each section page
+  paginate = 20
+  # date format (month and day)
+  dateFormat = "01-02"
+  # amount of RSS pages
+  rss = 10
+
+#  List (category or tag) page config
+[list]
+  # special amount of posts in each list page
+  paginate = 20
+  # date format (month and day)
+  dateFormat = "01-02"
+  # amount of RSS pages
+  rss = 10
+
+# Home page config
+[home]
+  #  amount of RSS pages
+  rss = 10
+  # Home page profile
+  [home.profile]
+    enable = true
+    # Gravatar Email for preferred avatar in home page
+    gravatarEmail = ""
+    # URL of avatar shown in home page
+    avatarURL = "/images/tobilukas.png"
+    #  title shown in home page (HTML format is supported)
+    title = ""
+    # subtitle shown in home page
+    subtitle = "Doing things with ze R and the stats"
+    # whether to use typeit animation for subtitle
+    typeit = false
+    # whether to show social links
+    social = true
+    #  disclaimer (HTML format is supported)
+    disclaimer = "#YOLOSWAG"
+  # Home page posts
+  [home.posts]
+    enable = true
+    # special amount of posts in each home posts page
+    paginate = 6
+    #  replaced with hiddenFromHomePage in page
+    # default behavior when you don't set "hiddenFromHomePage" in front matter
+    defaultHiddenFromHomePage = false
+
+# Social config about the author
+[social]
+  GitHub = "tadaadata"
+  Twitter = "tadaa_data"
+  Instagram = "xxxx"
+  Medium = ""
+  Gitlab = ""
+  Youtubelegacy = ""
+  Youtubecustom = ""
+  Youtubechannel = ""
+  Keybase = ""
+  Reddit = ""
+  Codepen = ""
+  FreeCodeCamp = ""
+  Stackoverflow = ""
+  Xing = ""
+  Soundcloud = ""
+  Spotify = ""
+  Bandcamp = ""
+  Paypal = ""
+  Fivehundredpx = ""
+  Mix = ""
+  Goodreads = ""
+  Lastfm = ""
+  Foursquare = ""
+  Hackernews = ""
+  Kickstarter = ""
+  Patreon = ""
+  Steam = ""
+  Twitch = ""
+  Strava = ""
+  Skype = ""
+  Whatsapp = ""
+  Zhihu = ""
+  Douban = ""
+  Angellist = ""
+  Slidershare = ""
+  Jsfiddle = ""
+  Deviantart = ""
+  Behance = ""
+  Dribbble = ""
+  Wordpress = ""
+  Vine = ""
+  Googlescholar = ""
+  Researchgate = ""
+  Mastodon = ""
+  Thingiverse = ""
+  Devto = ""
+  Gitea = "https://git.tadaa-data.de"
+  XMPP = ""
+  Matrix = ""
+  Bilibili = ""
+  Email = "mail@tadaa-data.de"
+  RSS = true # 
+
+#  Page config
+[page]
+  #  whether to hide a page from home page
+  hiddenFromHomePage = false
+  #  whether to hide a page from search results
+  hiddenFromSearch = false
+  #  whether to enable twemoji
+  twemoji = false
+  # whether to enable lightgallery
+  lightgallery = false
+  #  whether to enable the ruby extended syntax
+  ruby = true
+  #  whether to enable the fraction extended syntax
+  fraction = true
+  #  whether to enable the fontawesome extended syntax
+  fontawesome = true
+  # whether to show link to Raw Markdown content of the content
+  linkToMarkdown = true
+  #  whether to show the full text content in RSS
+  rssFullText = false
+  #  Table of the contents config
+  [page.toc]
+    # whether to enable the table of the contents
+    enable = true
+    # whether to make the table of the contents automatically collapsed
+    auto = true
+  #  KaTeX mathematical formulas
+  [page.math]
+    enable = true
+    # default block delimiter is $$ ... $$ and \\[ ... \\]
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    # default inline delimiter is $ ... $ and \\( ... \\)
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    # KaTeX extension copy_tex
+    copyTex = true
+    # KaTeX extension mhchem
+    mhchem = true
+  #  Code config
+  [page.code]
+    # whether to show the copy button of the code block
+    copy = true
+    # the maximum number of lines of displayed code by default
+    maxShownLines = 10
+  #  Mapbox GL JS config
+  [page.mapbox]
+    # access token of Mapbox GL JS
+    accessToken = ""
+    # style for the light theme
+    lightStyle = "mapbox://styles/mapbox/light-v9"
+    # style for the dark theme
+    darkStyle = "mapbox://styles/mapbox/dark-v9"
+    # whether to add NavigationControl
+    navigation = true
+    # whether to add GeolocateControl
+    geolocate = true
+    # whether to add ScaleControl
+    scale = true
+    # whether to add FullscreenControl
+    fullscreen = true
+  #  social share links in post page
+  [page.share]
+    enable = true
+    Twitter = true
+    Facebook = true
+    Linkedin = false
+    Whatsapp = true
+    Pinterest = false
+    Tumblr = false
+    HackerNews = false
+    Reddit = false
+    VK = false
+    Buffer = false
+    Xing = false
+    Line = true
+    Instapaper = false
+    Pocket = false
+    Digg = false
+    Stumbleupon = false
+    Flipboard = false
+    Weibo = true
+    Renren = false
+    Myspace = true
+    Blogger = true
+    Baidu = false
+    Odnoklassniki = false
+    Evernote = true
+    Skype = false
+    Trello = false
+    Mix = false
+  #  Comment config
+  [page.comment]
+    enable = true
+    #  Commento comment config
+    [page.comment.commento]
+      enable = false
+    #  Utterances comment config
+    [page.comment.utterances]
+      enable = true
+      # owner/repo
+      repo = "tadaadata/tadaa-data.de"
+      issueTerm = "pathname"
+      label = "website-comments"
+      lightTheme = "github-light"
+      darkTheme = "github-dark"
+  #  Third-party library config
+  [page.library]
+    [page.library.css]
+      # someCSS = "some.css"
+      # located in "assets/"
+      # Or
+      # someCSS = "https://cdn.example.com/some.css"
+    [page.library.js]
+      # someJavascript = "some.js"
+      # located in "assets/"
+      # Or
+      # someJavascript = "https://cdn.example.com/some.js"
+  #  SEO config
+  [page.seo]
+    # Publisher info
+    [page.seo.publisher]
+      name = "xxxx"
+      [page.seo.publisher.logo]
+        url = "logo.png"
+        width = 127
+        height = 40
+    # Logo info
+    [page.seo.logo]
+      url = "logo.png"
+      width = 127
+      height = 40
+    # Image info
+    [page.seo.image]
+      url = "cover.png"
+      width = 800
+      height = 600
+
+#  TypeIt config
+[typeit]
+  # typing speed between each step (measured in milliseconds)
+  speed = 100
+  # blinking speed of the cursor (measured in milliseconds)
+  cursorSpeed = 1000
+  # character used for the cursor (HTML format is supported)
+  cursorChar = "|"
+  # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+  duration = -1
+
+# Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
+[verification]
+  google = ""
+
+#  Cookie consent config
+[cookieconsent]
+  enable = false
+  # text strings used for Cookie consent banner
+  [cookieconsent.content]
+    message = ""
+    dismiss = ""
+    link = ""
+
+#  CDN config for third-party library files
+[cdn]
+  # CDN data file name, disabled by default
+  # ("jsdelivr.yml")
+  # located in "themes/LoveIt/assets/data/cdn/" directory
+  # you can store your own data files in the same path under your project:
+  # "assets/data/cdn/"
+  data = ""
+
+#  Compatibility config
+[compatibility]
+  # whether to use Polyfill.io to be compatible with older browsers
+  polyfill = false
+  # whether to use object-fit-images to be compatible with older browsers
+  objectFit = false
