@@ -10,7 +10,7 @@ author: "Lukas"
 
 We're Tobi & Lukas, or Lukas & Tobi, or [@jemus42](https://twitter.com/jemus42) and [@Unsichtbarer](https://twitter.com/Unsichtbarer), or [MarauderPixie](https://github.com/MarauderPixie) and [jemus42](http://github.com/jemus42), or something like that.
 
-Studying at [Uni Bremen](http://uni-bremen.de/), we realized that throwing code at data was a fun thing to do, and conveniently enough there seems to be a lot of that stuff flying around these days.
+Studying at [Uni Bremen](https://uni-bremen.de/), we realized that throwing code at data was a fun thing to do, and conveniently enough there seems to be a lot of that stuff flying around these days.
 
 While we're finishing up our (now second) degrees, we dabble in a few projects here and there, and you might find them mentioned here.
 

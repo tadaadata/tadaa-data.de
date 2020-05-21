@@ -18,7 +18,7 @@ featuredImage: ""
 featuredImagePreview: ""
 
 toc:
-  enable: true
+  enable: false
 math:
   enable: false
 lightgallery: false
@@ -27,8 +27,6 @@ license: ""
 
 We're back!
 
-I think?
-
-:thinking:
+I think? :thinking:
 
 <!--more-->
