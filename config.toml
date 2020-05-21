@@ -10,6 +10,7 @@ SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 enableRobotsTXT = true
 enableEmoji = true
+enableGitInfo = true
 
 # Sitemap config
 [sitemap]
@@ -48,13 +49,13 @@ enableEmoji = true
   # Table Of Contents settings
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 6
+    endLevel = 5
 
 # Author config
 [author]
   name = "Tadaa, Data!"
-  email = ""
-  link = ""
+  email = "mail@tadaa-data.de"
+  link = "https://tadaa-data.de"
 
 # Options to make output .md files
 [mediaTypes]

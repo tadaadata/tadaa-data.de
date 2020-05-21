@@ -1,10 +1,10 @@
 ---
 title: "Reintroducing Tadaa Data"
 subtitle: ""
-date: 2020-05-21T04:14:03+02:00
-lastmod: 2020-05-21T04:14:03+02:00
+date: 2020-05-21
+#lastmod: 2020-05-21
 draft: false
-author: ""
+author: "Lukas"
 authorLink: ""
 description: ""
 

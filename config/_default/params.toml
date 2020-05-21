@@ -7,7 +7,7 @@ keywords = ["Theme", "Hugo"]
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
-gitRepo = ""
+gitRepo = "https://github.com/tadaadata/tadaa-data.de"
 #  which hash function used for SRI, when empty, no SRI is used
 # ("sha256", "sha384", "sha512", "md5")
 fingerprint = "sha384"
@@ -39,7 +39,7 @@ images = ["/images/tadaa.png"]
   # max index length of the chunked content
   contentLength = 4000
   # placeholder of the search bar
-  placeholder = ""
+  placeholder = "Search a thing find a thing"
   #  max number of results length
   maxResultLength = 10
   #  snippet length of the result
@@ -118,7 +118,7 @@ images = ["/images/tadaa.png"]
     # URL of avatar shown in home page
     avatarURL = "/images/tobilukas.png"
     #  title shown in home page (HTML format is supported)
-    title = ""
+    title = "Okay then!"
     # subtitle shown in home page
     subtitle = "Doing things with ze R and the stats"
     # whether to use typeit animation for subtitle
@@ -140,7 +140,7 @@ images = ["/images/tadaa.png"]
 [social]
   GitHub = "tadaadata"
   Twitter = "tadaa_data"
-  Instagram = "xxxx"
+  Instagram = ""
   Medium = ""
   Gitlab = ""
   Youtubelegacy = ""
@@ -259,23 +259,23 @@ images = ["/images/tadaa.png"]
     Facebook = true
     Linkedin = false
     Whatsapp = true
-    Pinterest = false
-    Tumblr = false
+    Pinterest = true
+    Tumblr = true
     HackerNews = false
-    Reddit = false
+    Reddit = true
     VK = false
-    Buffer = false
-    Xing = false
+    Buffer = true
+    Xing = true
     Line = true
-    Instapaper = false
-    Pocket = false
+    Instapaper = true
+    Pocket = true
     Digg = false
     Stumbleupon = false
     Flipboard = false
     Weibo = true
     Renren = false
-    Myspace = true
-    Blogger = true
+    Myspace = false
+    Blogger = false
     Baidu = false
     Odnoklassniki = false
     Evernote = true
