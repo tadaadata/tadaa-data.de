@@ -22,7 +22,7 @@ Here's a more-or-less complete list of our projects, both as a starting point fo
 
 ### R-Packages
 
-[**tadaatoolbox**](https://tadaatoolbox.tadaa-data.de/) ([CRAN](https://cran.r-project.org/package=tadaatoolbox) / [GitHub](https://github.com/tadaadata/tadaatoolbox)): Writte while we were still undergrads and needed / wanted some convenience tools to help with our activities as stats tutors and in minor projects we were doing. It's definitely not recommended for active use in the real world.
+[**tadaatoolbox**](https://tadaatoolbox.tadaa-data.de/) ([CRAN](https://cran.r-project.org/package=tadaatoolbox) / [GitHub](https://github.com/tadaadata/tadaatoolbox)): Written while we were still undergrads and ~~needed~~ some convenience tools to help with our activities as stats tutors and minor projects we were doing. It's definitely not recommended for active use in the real world.
 
 ### Analysis Projects
 
