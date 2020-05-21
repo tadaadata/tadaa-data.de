@@ -15,7 +15,10 @@ fingerprint = "sha384"
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
 images = ["/images/tadaa_sq_w.png"]
-  
+
+[analytics]
+  enable = true 
+
 #  App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
