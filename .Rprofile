@@ -4,7 +4,7 @@
 
 options(
     servr.port = 4321L,
-    blogdown.author = "If you can read this you forgot to enter your name"
+    blogdown.author = "If you can read this you forgot to enter your name",
     blogdown.ext = ".Rmarkdown",
     blogdown.subdir = "posts",
     blogdown.new_bundle = TRUE,
