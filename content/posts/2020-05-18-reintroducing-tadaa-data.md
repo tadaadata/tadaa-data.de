@@ -14,7 +14,7 @@ categories: []
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: ""
+featuredImage: "/images/emptyplot_wide.png"
 featuredImagePreview: ""
 
 toc:
