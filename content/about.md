@@ -1,10 +1,8 @@
 ---
 title: "About"
-subtitle: ""
+subtitle: "There's something about us"
 draft: false
 author: "Lukas"
-authorLink: ""
-description: ""
 ---
 
 

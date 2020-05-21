@@ -1,7 +1,6 @@
-+++
-title = "Legal"
-menu = ""
-+++
+---
+title: "Legal"
+---
 
 ## Angaben gemäß § 5 TMG
 
