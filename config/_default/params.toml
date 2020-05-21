@@ -219,7 +219,7 @@ images = ["/images/tadaa_sq_w.png"]
     auto = true
   #  KaTeX mathematical formulas
   [page.math]
-    enable = true
+    enable = false
     # default block delimiter is $$ ... $$ and \\[ ... \\]
     blockLeftDelimiter = ""
     blockRightDelimiter = ""
