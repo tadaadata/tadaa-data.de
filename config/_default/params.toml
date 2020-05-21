@@ -62,7 +62,7 @@ images = ["/images/tadaa.png"]
   #  Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/images/tadaa_sq.png"
+    # logo = "/images/tadaa_sq_w.png" # Needs better logo
     # title name
     name = "Tadaa, Data!"
     # you can add extra information before the name (HTML format is supported), such as icons
