@@ -9,14 +9,14 @@
   # title will be shown when you hover on this menu link.
   title = ""
   weight = 1
-[[main]]
-  identifier = "tags"
-  pre = ""
-  post = ""
-  name = "Tags"
-  url = "/tags/"
-  title = ""
-  weight = 2
+#[[main]]
+#  identifier = "tags"
+#  pre = ""
+#  post = ""
+#  name = "Tags"
+#  url = "/tags/"
+#  title = ""
+#  weight = 2
 [[main]]
   identifier = "categories"
   pre = ""
@@ -34,10 +34,18 @@
   title = ""
   weight = 5
 [[main]]
+  identifier = "legal"
+  pre = ""
+  post = ""
+  name = "Legal"
+  url = "/legal/"
+  title = ""
+  weight = 6
+[[main]]
   identifier = "github"
   pre = "<i class='fab fa-github fa-fw'></i>"
   post = ""
   name = ""
   url = "https://github.com/tadaadata/"
   title = "GitHub"
-  weight = 6
+  weight = 10

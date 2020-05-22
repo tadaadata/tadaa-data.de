@@ -10,7 +10,7 @@ Herbststr. 90
 
 ## Kontakt
 
-<code>ma‌il@tadaa-d‌ata.‌de</code>
+<code>ma‌il at tadaa-d‌ata.‌de</code>
 
 ## Haftung für Inhalte
 
