@@ -19,9 +19,15 @@ math:
   enable: no
 lightgallery: no
 license: ''
+output: hugodown::md_document
 ---
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, error = FALSE,
+  fig.retina = 2
+)
+```
 
 This is only a test
 
@@ -29,14 +35,11 @@ This is only a test
 
 This is a plot I made to see if the output gets saved in the same folder as the post's `.Rmarkdown` file and gets included correctly:
 
-
-```r
+```{r testplot}
 library(ggplot2)
 
 ggplot(mpg, aes(x = year, y = cty, color = cyl)) +
   geom_point() +
   theme_minimal()
 ```
-
-<img src="testplot-1.png" width="672" />
 
