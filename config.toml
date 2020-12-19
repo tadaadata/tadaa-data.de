@@ -21,7 +21,7 @@ relativeURLs = true
 
 # Permalinks config
 [Permalinks]
-  posts = ":year/:month/:slug"
+  posts = ":year/:slug"
 
 # Markup related config in Hugo
 [markup]
@@ -71,7 +71,7 @@ relativeURLs = true
 
 # Options to make hugo output files
 [outputs]
-  # 
+  #
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
