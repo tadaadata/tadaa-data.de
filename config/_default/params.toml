@@ -3,7 +3,7 @@ version = "0.2.X"
 # site description
 description = "Tadaa, Data!"
 # site keywords
-keywords = ["Blog", "Hugo"]
+keywords = ["Blog", "Hugo", "hugodown", "tadaa data", "R", "rstats"]
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
@@ -17,7 +17,7 @@ dateFormat = "2006-01-02"
 images = ["/images/tadaa_sq_w.png"]
 
 [analytics]
-  enable = true
+  enable = false
 
 #  App icon config
 [app]
