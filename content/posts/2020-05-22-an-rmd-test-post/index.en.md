@@ -3,6 +3,7 @@ title: "An Rmd Test Post"
 author: jemus42
 date: '2020-05-22'
 slug: "an-rmd-test-post"
+draft: true
 categories:
   - R
 tags: []
@@ -20,7 +21,7 @@ math:
 lightgallery: no
 license: ''
 output: hugodown::md_document
-rmd_hash: f81e7227ae5cd316
+rmd_hash: 25db7cddd77af23a
 
 ---
 

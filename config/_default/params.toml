@@ -121,7 +121,7 @@ images = ["/images/tadaa_sq_w.png"]
     # URL of avatar shown in home page
     avatarURL = "/images/tadaa_sq_w.png"
     #  title shown in home page (HTML format is supported)
-    title = "Okay then!"
+    title = " Tadaa!"
     # subtitle shown in home page
     subtitle = "Doing things with data"
     # whether to use typeit animation for subtitle
